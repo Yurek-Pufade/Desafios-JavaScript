@@ -1,11 +1,11 @@
 // // Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
-// let pesoEmQuilos = 47;
-// let alturaEmMetros = 1.74;
-// let resultado = calculoIMC(pesoEmQuilos, alturaEmMetros)
-// function calculoIMC(pesoEmQuilos, alturaEmMetros){
-//     let IMC = pesoEmQuilos / (alturaEmMetros ** 2);
-//     return IMC.toFixed(2);
-// }
+let pesoEmQuilos = 47;
+let alturaEmMetros = 1.74;
+let resultado = calculoIMC(pesoEmQuilos, alturaEmMetros)
+function calculoIMC(pesoEmQuilos, alturaEmMetros){
+    let IMC = pesoEmQuilos / (alturaEmMetros ** 2);
+    return IMC.toFixed(2);
+}
 // console.log(resultado)
 
 
