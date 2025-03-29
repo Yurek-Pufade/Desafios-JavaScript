@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 3;  
+let numeroLimite = 10;  
 
 
 function alterarTextoNaTela(tag, texto) {
