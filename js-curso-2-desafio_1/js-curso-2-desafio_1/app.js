@@ -1,11 +1,11 @@
 // // Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
-let pesoEmQuilos = 47;
-let alturaEmMetros = 1.74;
-let resultado = calculoIMC(pesoEmQuilos, alturaEmMetros)
-function calculoIMC(pesoEmQuilos, alturaEmMetros){
-    let IMC = pesoEmQuilos / (alturaEmMetros ** 2);
-    return IMC.toFixed(2);
-}
+// let pesoEmQuilos = 47;
+// let alturaEmMetros = 1.74;
+// let resultado = calculoIMC(pesoEmQuilos, alturaEmMetros)
+// function calculoIMC(pesoEmQuilos, alturaEmMetros){
+//     let IMC = pesoEmQuilos / (alturaEmMetros ** 2);
+//     return IMC.toFixed(2);
+// }
 // console.log(resultado)
 
 
@@ -84,14 +84,14 @@ function calculoIMC(pesoEmQuilos, alturaEmMetros){
 //     return area2;
 // }
 // // Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
-// function tabuada(num){
-//     for(let i = 1; i <= 10; i++){
-//         let resultado5 = num * i;
-//         console.log(resultado5);
-//     }
-// }
-// let num;
-// tabuada(num)
+function tabuada(num){
+    for(let i = 1; i <= 10; i++){
+        let resultado5 = num * i;
+        console.log(resultado5);
+    }
+}
+let num;
+tabuada(num)
 
 // Crie uma lista vazia, com o nome listaGenerica.
 let listaGenerica = ['dois','1'];
