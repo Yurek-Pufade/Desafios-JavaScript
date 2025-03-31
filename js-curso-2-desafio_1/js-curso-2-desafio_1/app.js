@@ -12,20 +12,20 @@
 
 // // Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
 
-// function checarCliqueConsole(){
-//     let numero = document.querySelector('input').value;
-//     let resultado2 = calcularFatorial(numero);
-//     console.log(resultado2);
-// }
+function checarCliqueConsole(){
+    let numero = document.querySelector('input').value;
+    let resultado2 = calcularFatorial(numero);
+    console.log(resultado2);
+}
 
-// function calcularFatorial(numeroEntrada){
-//     let fatorial = 1;
-//     if (numeroEntrada === 0 || numeroEntrada === 1) return 1;
-//     for(let a = 2; a <= numeroEntrada; a++){
-//     fatorial *= a;
-//     }
-//     return fatorial;
-// } 
+function calcularFatorial(numeroEntrada){
+    let fatorial = 1;
+    if (numeroEntrada === 0 || numeroEntrada === 1) return 1;
+    for(let a = 2; a <= numeroEntrada; a++){
+    fatorial *= a;
+    }
+    return fatorial;
+} 
 
 // // Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. Para isso, considere a cotação do dólar igual a R$4,80.
 
